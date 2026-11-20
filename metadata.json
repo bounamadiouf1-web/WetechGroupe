@@ -1,0 +1,6 @@
+{
+  "name": "WE-TECH — Bissau Digital & Plataformas",
+  "description": "Apresentação oficial da WE-TECH e da sua filial Bissau Digital: serviços digitais e quatro plataformas tecnológicas em Bissau, Guiné-Bissau.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

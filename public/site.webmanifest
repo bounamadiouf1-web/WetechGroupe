@@ -1,0 +1,17 @@
+{
+  "name": "WE-TECH — Tecnologia & Bissau Digital",
+  "short_name": "WE-TECH",
+  "description": "WE-TECH em Bissau, Guiné-Bissau: Bissau Digital, BindiCumpra, Kummy, Bissau Go e FarmaGo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#047857",
+  "icons": [
+    {
+      "src": "/wetech-logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
