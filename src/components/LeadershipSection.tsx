@@ -29,11 +29,11 @@ export const LeadershipSection: React.FC<LeadershipSectionProps> = ({
             className="lg:col-span-5"
           >
             <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5">
-              <div className="aspect-[3/4] w-full rounded-xl overflow-hidden bg-slate-100">
+              <div className="aspect-[3/4] w-full rounded-xl overflow-hidden bg-white border border-slate-100">
                 <ResilientImage
                   src={MEDIA_ASSETS[leadership.photoKey]}
                   alt={`${leadership.ceoName} — ${leadership.ceoRole[language]}`}
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-contain object-bottom"
                 />
               </div>
 

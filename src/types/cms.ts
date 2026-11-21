@@ -42,6 +42,7 @@ export interface ProjectPlatform {
   logoKey: MediaAssetKey;
   visualKey?: MediaAssetKey;
   visualPendingNote?: LocalizedText;
+  websiteUrl?: string;
   imageAlt: LocalizedText;
   accentHex: string;
 }

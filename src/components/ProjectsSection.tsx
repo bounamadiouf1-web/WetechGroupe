@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ArrowRight, CreditCard, MapPin, Users } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, CreditCard, MapPin, Users } from 'lucide-react';
 import { MEDIA_ASSETS } from '../data/mediaAssets';
 import { Language, ProjectPlatform, SiteContent } from '../types/cms';
 import { ResilientImage } from './ResilientImage';
@@ -28,6 +28,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
     model: { pt: 'Modelo', fr: 'Modèle', en: 'Model' },
     status: { pt: 'Estado atual', fr: 'Avancement', en: 'Current Status' },
     explore: { pt: 'Ver detalhes', fr: 'Voir détails', en: 'View details' },
+    visitSite: { pt: 'Visitar site', fr: 'Visiter le site', en: 'Visit website' },
     partnerCta: {
       pt: 'Propor parceria neste projeto',
       fr: 'Proposer un partenariat sur ce projet',
@@ -220,20 +221,38 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
                         </div>
                       </div>
 
-                      <div className="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
-                        <span className="text-xs text-slate-600 font-medium">
+                      <div className="pt-4 border-t border-slate-100 space-y-3">
+                        <span className="block text-xs text-slate-600 font-medium">
                           {platform.status[language]}
                         </span>
-                        <motion.button
-                          type="button"
-                          whileHover={{ x: 3 }}
-                          whileTap={{ scale: 0.96 }}
-                          onClick={() => setSelectedId(platform.id)}
-                          className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#047857] hover:text-[#065F46] cursor-pointer whitespace-nowrap shrink-0"
-                        >
-                          <span>{labels.explore[language]}</span>
-                          <ArrowRight className="w-3.5 h-3.5" />
-                        </motion.button>
+                        <div className="flex flex-wrap items-center justify-between gap-3">
+                          {platform.websiteUrl ? (
+                            <motion.a
+                              href={platform.websiteUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              whileHover={{ scale: 1.03, y: -1 }}
+                              whileTap={{ scale: 0.97 }}
+                              className="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-white bg-[#047857] hover:bg-[#065F46] rounded-lg transition-colors whitespace-nowrap shrink-0"
+                            >
+                              <span>{labels.visitSite[language]}</span>
+                              <ArrowUpRight className="w-3.5 h-3.5" />
+                            </motion.a>
+                          ) : (
+                            <span />
+                          )}
+
+                          <motion.button
+                            type="button"
+                            whileHover={{ x: 3 }}
+                            whileTap={{ scale: 0.96 }}
+                            onClick={() => setSelectedId(platform.id)}
+                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0284C7] hover:text-[#0369A1] cursor-pointer whitespace-nowrap shrink-0"
+                          >
+                            <span>{labels.explore[language]}</span>
+                            <ArrowRight className="w-3.5 h-3.5" />
+                          </motion.button>
+                        </div>
                       </div>
                     </div>
                   </motion.article>
@@ -380,16 +399,32 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
                       </span>
                     </div>
 
-                    <motion.button
-                      type="button"
-                      whileHover={{ scale: 1.03, y: -1 }}
-                      whileTap={{ scale: 0.97 }}
-                      onClick={() => onSelectInterest(activePlatform.name)}
-                      className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#047857] hover:bg-[#065F46] rounded-lg transition-colors cursor-pointer whitespace-nowrap shrink-0"
-                    >
-                      <span>{labels.partnerCta[language]}</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </motion.button>
+                    <div className="flex flex-wrap items-center gap-3">
+                      {activePlatform.websiteUrl && (
+                        <motion.a
+                          href={activePlatform.websiteUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={{ scale: 1.03, y: -1 }}
+                          whileTap={{ scale: 0.97 }}
+                          className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#0284C7] hover:bg-[#0369A1] rounded-lg transition-colors whitespace-nowrap shrink-0"
+                        >
+                          <span>{labels.visitSite[language]}</span>
+                          <ArrowUpRight className="w-4 h-4" />
+                        </motion.a>
+                      )}
+
+                      <motion.button
+                        type="button"
+                        whileHover={{ scale: 1.03, y: -1 }}
+                        whileTap={{ scale: 0.97 }}
+                        onClick={() => onSelectInterest(activePlatform.name)}
+                        className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#047857] hover:bg-[#065F46] rounded-lg transition-colors cursor-pointer whitespace-nowrap shrink-0"
+                      >
+                        <span>{labels.partnerCta[language]}</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </motion.button>
+                    </div>
                   </div>
                 </div>
               </motion.div>

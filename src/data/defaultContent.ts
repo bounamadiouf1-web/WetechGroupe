@@ -385,6 +385,7 @@ export const DEFAULT_CONTENT: SiteContent = {
         },
         logoKey: 'bindicumpraLogo',
         visualKey: 'bindicumpraVisual',
+        websiteUrl: 'https://bindicumpra.net',
         imageAlt: {
           pt: 'Visuel oficial da BindiCumpra Bissau: a tua nova montra digital na Guiné-Bissau',
           fr: 'Visuel officiel BindiCumpra Bissau : vitrine numérique en Guinée-Bissau',
@@ -448,6 +449,7 @@ export const DEFAULT_CONTENT: SiteContent = {
         },
         logoKey: 'kummyLogo',
         visualKey: 'kummyVisual',
+        websiteUrl: 'https://www.kummygo.com/',
         imageAlt: {
           pt: 'Visuel oficial Kummy: a tua comida, rápido em Bissau',
           fr: 'Visuel officiel Kummy : livraison rapide de repas à Bissau',
@@ -573,15 +575,12 @@ export const DEFAULT_CONTENT: SiteContent = {
           en: 'In rollout · Open for pharmacy and healthcare distribution partnerships',
         },
         logoKey: 'farmagoLogo',
-        visualPendingNote: {
-          pt: 'Identidade oficial FarmaGo · Visuel de campanha em preparação',
-          fr: 'Identité officielle FarmaGo · Visuel de campagne en préparation',
-          en: 'Official FarmaGo identity · Campaign visual in preparation',
-        },
+        visualKey: 'farmagoVisual',
+        websiteUrl: 'https://farmago.eurekaconsultingbis.com/',
         imageAlt: {
-          pt: 'Logótipo oficial FarmaGo — Gestão de Farmácias',
-          fr: 'Logo officiel FarmaGo — Gestion de pharmacies',
-          en: 'Official FarmaGo pharmacy management logo',
+          pt: 'Visuel oficial FarmaGo: encontre o seu medicamento na Guiné-Bissau',
+          fr: 'Visuel officiel FarmaGo : trouvez vos médicaments en Guinée-Bissau',
+          en: 'Official FarmaGo visual: find your medicine in Guinea-Bissau',
         },
         accentHex: '#0D9488',
       },
@@ -686,9 +685,9 @@ export const DEFAULT_CONTENT: SiteContent = {
       ],
     },
     bioPendingNotice: {
-      pt: 'Espaço reservado para a fotografia oficial e biografia completa de Pape Pathé Pierre Fall.',
-      fr: 'Emplacement réservé pour la photo officielle et la biographie complète de Pape Pathé Pierre Fall.',
-      en: 'Dedicated space reserved for Pape Pathé Pierre Fall’s official portrait and full biography.',
+      pt: 'Espaço reservado para a biografia oficial completa de Pape Pathé Pierre Fall.',
+      fr: 'Emplacement réservé pour la biographie officielle complète de Pape Pathé Pierre Fall.',
+      en: 'Dedicated space reserved for Pape Pathé Pierre Fall’s full official biography.',
     },
   },
   contact: {
