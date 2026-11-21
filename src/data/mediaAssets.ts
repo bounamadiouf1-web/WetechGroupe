@@ -10,6 +10,8 @@ import bissauGoLogo from '../assets/media/bissaugo-logo.jpg';
 import bissauGoVisual from '../assets/media/bissaugo-visual.jpg';
 import farmagoLogo from '../assets/media/farmago-logo.jpeg';
 import farmagoVisual from '../assets/media/farmago-visual.jpg';
+import caixaPlusLogo from '../assets/media/caixaplus-logo.jpg';
+import caixaPlusVisual from '../assets/media/caixaplus-visual.jpg';
 
 export const MEDIA_ASSETS = {
   wetechLogo,
@@ -24,6 +26,8 @@ export const MEDIA_ASSETS = {
   bissauGoVisual,
   farmagoLogo,
   farmagoVisual,
+  caixaPlusLogo,
+  caixaPlusVisual,
 } as const;
 
 export type MediaAssetKey = keyof typeof MEDIA_ASSETS;

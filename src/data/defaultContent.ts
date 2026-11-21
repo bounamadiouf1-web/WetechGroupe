@@ -70,16 +70,16 @@ export const DEFAULT_CONTENT: SiteContent = {
     },
     metrics: [
       {
-        value: '04',
+        value: '05',
         label: {
           pt: 'Plataformas Próprias',
           fr: 'Plateformes Propriétaires',
           en: 'Proprietary Platforms',
         },
         context: {
-          pt: 'BindiCumpra, Kummy, Bissau Go e FarmaGo',
-          fr: 'BindiCumpra, Kummy, Bissau Go et FarmaGo',
-          en: 'BindiCumpra, Kummy, Bissau Go & FarmaGo',
+          pt: 'BindiCumpra, Kummy, Bissau Go, FarmaGo e Caixa+',
+          fr: 'BindiCumpra, Kummy, Bissau Go, FarmaGo et Caixa+',
+          en: 'BindiCumpra, Kummy, Bissau Go, FarmaGo & Caixa+',
         },
       },
       {
@@ -308,14 +308,14 @@ export const DEFAULT_CONTENT: SiteContent = {
       en: 'Platform Portfolio · Guinea-Bissau',
     },
     title: {
-      pt: 'Quatro plataformas concebidas para necessidades concretas em Bissau',
-      fr: 'Quatre plateformes conçues pour des besoins concrets à Bissau',
-      en: 'Four platforms engineered for concrete daily needs in Bissau',
+      pt: 'Cinco plataformas concebidas para necessidades concretas em Bissau',
+      fr: 'Cinq plateformes conçues pour des besoins concrets à Bissau',
+      en: 'Five platforms engineered for concrete daily needs in Bissau',
     },
     subtitle: {
-      pt: 'Comprar e vender, encomendar refeições, deslocar-se pela cidade e aceder a medicamentos — cada projeto resolve um desafio quotidiano com tecnologia local.',
-      fr: 'Acheter et vendre, se faire livrer un repas, se déplacer en ville et accéder à une pharmacie — chaque projet répond à un besoin concret avec une technologie locale.',
-      en: 'Buying and selling, ordering meals, moving across the city, and accessing pharmacies — each platform solves an everyday challenge with locally adapted technology.',
+      pt: 'Comprar e vender, encomendar refeições, deslocar-se pela cidade, aceder a farmácias e gerir caixa e stocks de pequenos negócios — cada projeto resolve um desafio quotidiano com tecnologia local.',
+      fr: 'Acheter et vendre, se faire livrer un repas, se déplacer en ville, accéder à une pharmacie et gérer caisse et stocks des commerces — chaque projet répond à un besoin concret avec une technologie locale.',
+      en: 'Buying and selling, ordering meals, moving across the city, accessing pharmacies, and running shop POS and inventory — each platform solves an everyday challenge with locally adapted technology.',
     },
     allFilterLabel: {
       pt: 'Visão Geral',
@@ -584,6 +584,69 @@ export const DEFAULT_CONTENT: SiteContent = {
         },
         accentHex: '#0D9488',
       },
+      {
+        id: 'caixa-plus',
+        name: 'Caixa+',
+        category: {
+          pt: 'Gestão Comercial & POS',
+          fr: 'Gestion de Caisse & Commerce',
+          en: 'Retail POS & Business Management',
+        },
+        modelReference: {
+          pt: 'Gestão simples para grandes negócios',
+          fr: 'Gestion simple pour de grands commerces',
+          en: 'Simple management for growing businesses',
+        },
+        tagline: {
+          pt: 'Solução completa de caixa registadora digital, relatórios financeiros e gestão de stocks para PME em Bissau',
+          fr: 'Solution complète de caisse enregistreuse digitale, suivi financier et gestion des stocks pour PME à Bissau',
+          en: 'Complete digital POS register, real-time financial reports, and stock management for SMEs in Bissau',
+        },
+        description: {
+          pt: 'Concebida para pequenos e médios empreendedores na Guiné-Bissau — desde lojas de cosméticos ao comércio de proximidade em Bissau — a Caixa+ oferece registo imediato de vendas («Venda registada»), painel financeiro em tempo real («Vendas», «Resumo» e gráficos de desempenho) e controlo simples de stock.',
+          fr: 'Conçue pour les petits et moyens entrepreneurs en Guinée-Bissau — des boutiques de cosmétiques aux commerces de proximité à Bissau — Caixa+ offre une caisse enregistreuse digitalisée (« Venda registada »), un tableau de bord financier en temps réel (« Vendas », « Resumo » et graphiques de performance) ainsi qu’une gestion simplifiée des stocks.',
+          en: 'Built for small and medium entrepreneurs across Guinea-Bissau — from cosmetics boutiques to neighborhood shops in Bissau — Caixa+ delivers instant digital POS sales recording («Venda registada»), real-time financial dashboards («Vendas», «Resumo», performance charts), and effortless inventory tracking.',
+        },
+        forSideA: {
+          label: { pt: 'Para os comerciantes & PME', fr: 'Pour les commerçants & PME', en: 'For shop owners & SMEs' },
+          detail: {
+            pt: 'Caixa registadora digital rápida, resumos diários («Vendas», «Resumo») e controlo completo do inventário em prateleira.',
+            fr: 'Enregistrement rapide des ventes en caisse, résumés financiers en temps réel et suivi simple des stocks en rayon.',
+            en: 'Fast digital point-of-sale checkout, real-time sales summaries, and clear shelf-level stock control.',
+          },
+        },
+        forSideB: {
+          label: { pt: 'Para a experiência em loja', fr: 'Pour l’expérience en boutique', en: 'For in-store operations' },
+          detail: {
+            pt: 'Atendimento ágil e profissional com interface limpa em azul-marinho e branco adaptada à realidade local da Guiné-Bissau.',
+            fr: 'Accueil fluide et professionnel grâce à une interface épurée bleu marine et blanc ancrée dans le quotidien en Guinée-Bissau.',
+            en: 'Smooth, professional customer service through a clean navy-blue interface rooted in Guinea-Bissau’s retail reality.',
+          },
+        },
+        payments: {
+          pt: 'Registo unificado de caixa em numerário e pagamentos móveis locais',
+          fr: 'Suivi unifié des encaissements en espèces et paiements mobiles locaux',
+          en: 'Unified cash and local mobile money sales tracking at checkout',
+        },
+        businessModel: {
+          pt: 'Subscrição SaaS acessível adaptada a pequenas e médias empresas locais.',
+          fr: 'Abonnement SaaS accessible adapté aux petits et moyens commerces locaux.',
+          en: 'Accessible SaaS subscription tailored for local small and medium retailers.',
+        },
+        status: {
+          pt: 'Campanha & identidade lançadas · Em implantação para comércios em Bissau',
+          fr: 'Identité & campagne lancées · Déploiement auprès des commerces à Bissau',
+          en: 'Brand & campaign launched · Rolling out to local businesses in Bissau',
+        },
+        logoKey: 'caixaPlusLogo',
+        visualKey: 'caixaPlusVisual',
+        imageAlt: {
+          pt: 'Visuel oficial Caixa+: transforme os seus dados em decisões melhores — Vendas, Despesas, Stock e Resultados',
+          fr: 'Visuel officiel Caixa+ : transformez vos données en meilleures décisions — Ventes, Dépenses, Stock et Résultats',
+          en: 'Official Caixa+ visual: turn your business data into better decisions — Sales, Expenses, Stock, and Results',
+        },
+        accentHex: '#0F3A68',
+      },
     ],
   },
   synergy: {
@@ -593,14 +656,14 @@ export const DEFAULT_CONTENT: SiteContent = {
       en: 'Shared Architecture · Why These Platforms Work Together',
     },
     title: {
-      pt: 'Um único núcleo tecnológico e conhecimento de terreno ao serviço de quatro setores',
-      fr: 'Un même noyau technique et une expertise terrain au service de quatre secteurs',
-      en: 'One unified engineering core and field team powering four essential sectors',
+      pt: 'Um único núcleo tecnológico e conhecimento de terreno ao serviço de cinco setores',
+      fr: 'Un même noyau technique et une expertise terrain au service de cinq secteurs',
+      en: 'One unified engineering core and field team powering five essential sectors',
     },
     subtitle: {
-      pt: 'Em vez de quatro projetos isolados, a WE-TECH constrói blocos reutilizáveis pensados de raiz para a realidade da Guiné-Bissau.',
-      fr: 'Plutôt que quatre projets isolés, WE-TECH déploie des briques technologiques communes pensées pour la réalité bissau-guinéenne.',
-      en: 'Rather than four isolated apps, WE-TECH shares foundational infrastructure tailored from day one to Guinea-Bissau.',
+      pt: 'Em vez de cinco projetos isolados, a WE-TECH constrói blocos reutilizáveis pensados de raiz para a realidade da Guiné-Bissau.',
+      fr: 'Plutôt que cinq projets isolés, WE-TECH déploie des briques technologiques communes pensées pour la réalité bissau-guinéenne.',
+      en: 'Rather than five isolated apps, WE-TECH shares foundational infrastructure tailored from day one to Guinea-Bissau.',
     },
     pillars: [
       {

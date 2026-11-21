@@ -18,19 +18,19 @@ const SEO_META: Record<Language, { htmlLang: string; title: string; description:
     htmlLang: 'pt-PT',
     title: 'WE-TECH — Tecnologia & Bissau Digital | Guiné-Bissau',
     description:
-      'WE-TECH em Bissau: serviços digitais Bissau Digital e plataformas BindiCumpra, Kummy, Bissau Go e FarmaGo na Guiné-Bissau.',
+      'WE-TECH em Bissau: serviços digitais Bissau Digital e plataformas BindiCumpra, Kummy, Bissau Go, FarmaGo e Caixa+ na Guiné-Bissau.',
   },
   fr: {
     htmlLang: 'fr',
     title: 'WE-TECH — Technologie & Bissau Digital | Guinée-Bissau',
     description:
-      'WE-TECH à Bissau : services numériques Bissau Digital et plateformes BindiCumpra, Kummy, Bissau Go et FarmaGo en Guinée-Bissau.',
+      'WE-TECH à Bissau : services numériques Bissau Digital et plateformes BindiCumpra, Kummy, Bissau Go, FarmaGo et Caixa+ en Guinée-Bissau.',
   },
   en: {
     htmlLang: 'en',
     title: 'WE-TECH — Digital Technology & Bissau Digital | Guinea-Bissau',
     description:
-      'WE-TECH in Bissau: Bissau Digital engineering services and local platforms BindiCumpra, Kummy, Bissau Go, and FarmaGo.',
+      'WE-TECH in Bissau: Bissau Digital engineering services and local platforms BindiCumpra, Kummy, Bissau Go, FarmaGo, and Caixa+.',
   },
 };
 

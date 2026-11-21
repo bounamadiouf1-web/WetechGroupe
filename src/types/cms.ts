@@ -39,7 +39,7 @@ export interface ProjectPlatform {
   payments: LocalizedText;
   businessModel: LocalizedText;
   status: LocalizedText;
-  logoKey: MediaAssetKey;
+  logoKey?: MediaAssetKey;
   visualKey?: MediaAssetKey;
   visualPendingNote?: LocalizedText;
   websiteUrl?: string;
