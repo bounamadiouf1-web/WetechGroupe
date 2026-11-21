@@ -21,9 +21,9 @@ export const DEFAULT_CONTENT: SiteContent = {
       en: 'Platforms',
     },
     leadership: {
-      pt: 'Liderança',
+      pt: 'Direção',
       fr: 'Direction',
-      en: 'Leadership',
+      en: 'Executive',
     },
     partnerships: {
       pt: 'Parcerias',
@@ -649,16 +649,16 @@ export const DEFAULT_CONTENT: SiteContent = {
   },
   leadership: {
     kicker: {
-      pt: 'Liderança Executiva · WE-TECH',
-      fr: 'Direction Générale · WE-TECH',
-      en: 'Executive Leadership · WE-TECH',
+      pt: 'Fundador & CEO · WE-TECH',
+      fr: 'Fondateur & CEO · WE-TECH',
+      en: 'Founder & CEO · WE-TECH',
     },
     title: {
       pt: 'Visão empreendedora enraizada na África Ocidental',
       fr: 'Une vision entrepreneuriale ancrée en Afrique de l’Ouest',
       en: 'Entrepreneurial leadership rooted in West Africa',
     },
-    ceoName: 'Pape Pathé Pierre Fall',
+    ceoName: 'Pape Pathé Pierre Fal',
     ceoRole: {
       pt: 'Fundador & CEO da WE-TECH',
       fr: 'Fondateur & CEO de WE-TECH',
@@ -672,22 +672,22 @@ export const DEFAULT_CONTENT: SiteContent = {
     },
     bioParagraphs: {
       pt: [
-        'À frente da WE-TECH e da sua filial operacional Bissau Digital, Pape Pathé Pierre Fall conduz uma estratégia tecnológica pragmática: construir ferramentas digitais que funcionem com fiabilidade nas condições reais do mercado da Guiné-Bissau.',
-        'Este espaço biográfico está reservado para acolher em breve a biografia oficial completa de Pape Pathé Pierre Fall, detalhando o seu percurso empreendedor e a sua visão para a transformação digital em Bissau.',
+        'À frente da WE-TECH e da sua filial operacional Bissau Digital, Pape Pathé Pierre Fal conduz uma estratégia tecnológica pragmática: construir ferramentas digitais que funcionem com fiabilidade nas condições reais do mercado da Guiné-Bissau.',
+        'Este espaço biográfico está reservado para acolher em breve a biografia oficial completa de Pape Pathé Pierre Fal, detalhando o seu percurso empreendedor e a sua visão para a transformação digital em Bissau.',
       ],
       fr: [
-        'À la tête de WE-TECH et de sa filiale opérationnelle Bissau Digital, Pape Pathé Pierre Fall porte une vision technologique pragmatique : concevoir des plateformes numériques fiables et adaptées aux réalités du terrain en Guinée-Bissau.',
-        'Cet espace est réservé pour accueillir prochainement la biographie officielle complète de Pape Pathé Pierre Fall, retraçant son parcours entrepreneurial et sa vision pour la transformation numérique à Bissau.',
+        'À la tête de WE-TECH et de sa filiale opérationnelle Bissau Digital, Pape Pathé Pierre Fal porte une vision technologique pragmatique : concevoir des plateformes numériques fiables et adaptées aux réalités du terrain en Guinée-Bissau.',
+        'Cet espace est réservé pour accueillir prochainement la biographie officielle complète de Pape Pathé Pierre Fal, retraçant son parcours entrepreneurial et sa vision pour la transformation numérique à Bissau.',
       ],
       en: [
-        'Leading WE-TECH and its operational subsidiary Bissau Digital, Pape Pathé Pierre Fall champions a pragmatic technology agenda: building reliable digital platforms tailored to real-world market conditions in Guinea-Bissau.',
-        'This dedicated section is reserved for Pape Pathé Pierre Fall’s complete official biography, detailing his entrepreneurial journey and vision for digital transformation in Bissau.',
+        'Leading WE-TECH and its operational subsidiary Bissau Digital, Pape Pathé Pierre Fal champions a pragmatic technology agenda: building reliable digital platforms tailored to real-world market conditions in Guinea-Bissau.',
+        'This dedicated section is reserved for Pape Pathé Pierre Fal’s complete official biography, detailing his entrepreneurial journey and vision for digital transformation in Bissau.',
       ],
     },
     bioPendingNotice: {
-      pt: 'Espaço reservado para a biografia oficial completa de Pape Pathé Pierre Fall.',
-      fr: 'Emplacement réservé pour la biographie officielle complète de Pape Pathé Pierre Fall.',
-      en: 'Dedicated space reserved for Pape Pathé Pierre Fall’s full official biography.',
+      pt: 'Espaço reservado para a biografia oficial completa de Pape Pathé Pierre Fal.',
+      fr: 'Emplacement réservé pour la biographie officielle complète de Pape Pathé Pierre Fal.',
+      en: 'Dedicated space reserved for Pape Pathé Pierre Fal’s full official biography.',
     },
   },
   contact: {
